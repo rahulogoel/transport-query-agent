@@ -56,9 +56,7 @@ assignment/
 │   ├── state.py      # Agent state schema
 │   └── config.py     # Environment + Groq config
 │
-├── notebooks/
-│   └── transport_agent.ipynb   # Multi-user simulation
-│
+├── main.ipynb        # Multi-user simulation 
 ├── requirements.txt
 ├── .env
 └── README.md
@@ -170,7 +168,7 @@ uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload
 
 ## Multi-User Simulation
 
-The Jupyter notebook `notebooks/transport_agent.ipynb` contains:
+The Jupyter [notebook](https://github.com/rahulogoel/transport-query-agent/blob/main/main.ipynb) contains:
 
 * 10 simulated user queries
 * Dynamic agent routing
